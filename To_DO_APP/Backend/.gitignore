@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+.env
+
+# Logs
+logs/
+*.log
+logs/*.log
+debug.log
+error.log
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Build files
+dist/
+build/
+.cache/
+.next/
+
+# IDE / Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Firebase / AWS credentials (if used)
+firebase.json
+.aws/
